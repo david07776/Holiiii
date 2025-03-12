@@ -16,9 +16,17 @@
             font-family: 'Poppins', sans-serif;
         }
 
-        :root {
-            --clr: #0f0;
-        }
+        @keyframes glowShift {
+    0% { --clr: #FF33A1; }
+    25% { --clr: #FFD700; }
+    50% { --clr: #33FF57; }
+    75% { --clr: #00BFFF; }
+    100% { --clr: #FF33A1; }
+}
+:root {
+    animation: glowShift 5s infinite;
+}
+        
 
         body {
             display: flex;
