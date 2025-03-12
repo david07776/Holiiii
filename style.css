@@ -8,7 +8,7 @@ body {
 	overflow: hidden;
 	font: 16px sans-serif;
 	color: #ddd;
-	background-color: linear-gradient(90deg, #1a1a1a1b 50%, #33333300 50%), url('./img/image.png');
+	background-color: linear-gradient(90deg, #1a1a1a1b 50%, #33333300 50%), url('/r1.png');
 
 	user-select: none;
 }
